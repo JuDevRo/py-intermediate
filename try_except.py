@@ -14,7 +14,7 @@ try:
     a = int(input("Digita un número: "))
     b = int(input("Digita otro número: "))
     if b == 2:
-        # raise nos permite lanzar nuevas excepcione
+        # raise nos permite lanzar nuevas excepciones
         raise DivisionError("No está permitido el calculo por 2")
     resultado = a / b
     print(f"Resultado: {resultado}")
